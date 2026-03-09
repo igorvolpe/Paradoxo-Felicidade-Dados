@@ -1,0 +1,20 @@
+CREATE TABLE ranking_mundial (
+    pais VARCHAR(50),
+    regiao VARCHAR(50),
+    pib_per_capita DECIMAL(10,4),
+    suporte_social DECIMAL(10,4),
+    expectativa_vida DECIMAL(10,4),
+    indice_felicidade DECIMAL(10,4),
+    percepcao_corrupcao DECIMAL(10,4)
+);
+
+INSERT INTO ranking_mundial (pais, regiao, pib_per_capita, suporte_social, expectativa_vida, indice_felicidade, percepcao_corrupcao)
+VALUES 
+('Finlandia', 'Europa', 1.446, 1.106, 0.741, 7.842, 0.481),
+('Dinamarca', 'Europa', 1.502, 1.108, 0.763, 7.620, 0.485),
+('Suica', 'Europa', 1.566, 1.079, 0.816, 7.571, 0.413),
+('Brasil', 'America Latina', 1.064, 0.957, 0.571, 6.330, 0.084),
+('Costa Rica', 'America Latina', 1.034, 0.983, 0.755, 7.069, 0.102),
+('Estados Unidos', 'America do Norte', 1.533, 1.033, 0.707, 6.951, 0.225),
+('Ruanda', 'Africa', 0.353, 0.202, 0.407, 3.415, 0.455),
+('Israel', 'Oriente Medio', 1.455, 1.070, 0.823, 7.157, 0.103);
