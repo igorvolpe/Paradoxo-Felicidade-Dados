@@ -1,17 +1,10 @@
-# Paradoxo-Felicidade-Dados
-Análise de dados com Python sobre o Relatório Mundial de Felicidade
-📊 Projeto: O Paradoxo da Felicidade
-🎯 Objetivo
-Analisar se o PIB de um país é o único fator que determina a felicidade da população.
+## 🗄️ Camada de Dados (SQL Avançado)
+Para uma análise mais profunda e escalável, utilizei SQL para criar o **Social Return Index (SRI)**.
 
-🛠️ Ferramentas Utilizadas
-Linguagem: Python
+### Técnicas Utilizadas:
+- **CTEs (Common Table Expressions):** Para organização e legibilidade do código.
+- **Lógica Condicional (CASE WHEN):** Para classificação automatizada de países.
+- **Data Modeling:** Criação e estruturação de tabelas do zero.
 
-Bibliotecas: Pandas (Manipulação), Seaborn/Matplotlib (Visualização)
-
-Fonte dos Dados: World Happiness Report (Kaggle)
-
-💡 Principais Insights
-Descobri que países com baixa percepção de corrupção são mais felizes que países apenas ricos.
-
-Criei o Índice de Eficiência de Felicidade para mostrar quem faz mais com menos.
+### 📈 Insight Principal:
+A análise revelou que países como **Ruanda** possuem uma "Alta Eficiência Social", entregando um índice de bem-estar elevado proporcionalmente ao seu baixo PIB.
